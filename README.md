@@ -1,4 +1,7 @@
 # tomatobar-alfred
+
+![Github Downloads](https://img.shields.io/github/downloads/andreatitolo/tomatobar-alfred/total) ![GitHub release (with filter)](https://img.shields.io/github/v/release/andreatitolo/tomatobar-alfred)
+
 Alfred 5 workflow for interacting with TomatoBar app for macOS 
 
 ## Install
