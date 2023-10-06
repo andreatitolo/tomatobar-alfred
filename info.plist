@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.andreatitolo.tomatobar-alfred</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>780F2E48-F86B-4283-A883-10A2161AE711</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>73BC38D0-741B-487C-B464-0B809AA6A5CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>946D21EC-E02D-4EC3-9A9F-6CB9BFB6C2EC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>73BC38D0-741B-487C-B464-0B809AA6A5CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Andrea Titolo</string>
+	<key>description</key>
+	<string>A workflow to control TomatoBar through Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>TomatoBar Alfred</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>triggerid</key>
+				<string>TB Activate</string>
+				<key>triggername</key>
+				<string>ta</string>
+				<key>workflowonly</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.remote</string>
+			<key>uid</key>
+			<string>946D21EC-E02D-4EC3-9A9F-6CB9BFB6C2EC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>{var:t_keyword}</string>
+				<key>subtext</key>
+				<string>Start/Stop the timer</string>
+				<key>text</key>
+				<string>Activate/Deactivate Tomatobar</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>780F2E48-F86B-4283-A883-10A2161AE711</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>open -g tomatobar://startStop</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>73BC38D0-741B-487C-B464-0B809AA6A5CD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Usage
+Control the TomatoBar app from Alfred. Toggle the timer on and off for the amount customised in the app settings (see the app [github repo](https://github.com/ivoronin/TomatoBar)).
+
+The workflow has a pre-defined keyword (`ta`) but it can be customisable. If you have set it up, you can also use Alfred Remote to toggle the workflow on and off.
+
+![Activate/Deactivate TomatoBar](images/ta_on_off.png)
+
+### Commands and Keywords
+
+- `TomatoBar Activate/Deactivate` (default `ta`) - Activate TomatoBar for the default amount of time, defined in the app's settings.
+
+### Variables
+
+- `t_keyword` (default `ta`) - Main keyword to interact with the app.
+
+### Support for Alfred Remote
+
+If you have Alfred Remote installed and configured, you can add the workflow to its own page or add its commands to your page.
+
+The process is (assuming you have [Alfred Remote](https://www.alfredapp.com/help/remote/) installed and [set-up](https://www.alfredapp.com/help/remote/setting-up/)):
+
+1. Go to the `Remote` tab in `Alfred Preferences`
+2. Click on `Add Remote Page` (the `+` button) at the bottom.
+3. From the popup select `Workflows` → `TomatoBar Alfed` → `tomatobar-alfred-remote`
+4. The workflow choice `TB Activate/Deactivate` should now show up in the remote page on your desktop and on your phone.</string>
+	<key>uidata</key>
+	<dict>
+		<key>73BC38D0-741B-487C-B464-0B809AA6A5CD</key>
+		<dict>
+			<key>xpos</key>
+			<real>330</real>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>780F2E48-F86B-4283-A883-10A2161AE711</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>160</real>
+		</dict>
+		<key>946D21EC-E02D-4EC3-9A9F-6CB9BFB6C2EC</key>
+		<dict>
+			<key>xpos</key>
+			<real>65</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>ta</string>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>A keyword to use for quickly activating/deactivating tomatobar</string>
+			<key>label</key>
+			<string>Activate/Deactivate TomatoBar</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>t_keyword</string>
+		</dict>
+	</array>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/andreatitolo/tomatobar-alfred</string>
+</dict>
+</plist>

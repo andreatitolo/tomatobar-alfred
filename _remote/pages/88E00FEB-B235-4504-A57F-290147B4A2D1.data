@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gridsize</key>
+	<integer>4</integer>
+	<key>hidelabels</key>
+	<false/>
+	<key>iconid</key>
+	<string>7D415DF2-A411-43CC-8205-81B1962414C9</string>
+	<key>iconisuserspecified</key>
+	<true/>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>autoworkflowuid</key>
+				<true/>
+				<key>confirm</key>
+				<false/>
+				<key>triggerid</key>
+				<string>TB Activate</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runworkflow</string>
+			<key>buttoniconid</key>
+			<string>AE7AD76F-6D32-49C2-998D-92951BA829DC</string>
+			<key>buttonlabel</key>
+			<string>TB Activate/Deactivate</string>
+			<key>itemuid</key>
+			<string>1C9E2A17-CFE2-49E3-A7B5-4310EDCEB6AC</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+	</array>
+	<key>itemsall</key>
+	<array>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>autoworkflowuid</key>
+				<true/>
+				<key>confirm</key>
+				<false/>
+				<key>triggerid</key>
+				<string>TB Activate</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runworkflow</string>
+			<key>buttoniconid</key>
+			<string>AE7AD76F-6D32-49C2-998D-92951BA829DC</string>
+			<key>buttonlabel</key>
+			<string>TB Activate/Deactivate</string>
+			<key>itemuid</key>
+			<string>1C9E2A17-CFE2-49E3-A7B5-4310EDCEB6AC</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+	</array>
+	<key>subtitle</key>
+	<string>control tomatobar from your phone</string>
+	<key>title</key>
+	<string>tomatobar-alfred-remote</string>
+</dict>
+</plist>
