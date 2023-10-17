@@ -7,7 +7,7 @@ Alfred 5 workflow for interacting with TomatoBar app for macOS
 ## Install
 
 ### Manual install
-1. Install [TomatoBar](https://github.com/ivoronin/TomatoBar)
+1. Install [TomatoBar](https://github.com/ivoronin/TomatoBar) - In order to work, the workflow requires a pre-release of TomatoBar, available on the (original project page)[https://github.com/ivoronin/TomatoBar/releases/tag/prerelease] (v 3.5.0-12 at the time of writing).
 2. Install the workflow from the [releases page](https://github.com/andreatitolo/tomatobar-alfred/releases/latest) (download the `.alfredworkflow` file and open it).
 
 Note that the workflow requires Alfred [Powerpack](https://www.alfredapp.com/powerpack).
